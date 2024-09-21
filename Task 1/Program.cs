@@ -4,13 +4,13 @@ public static class Program
 {
     public static void Main()
     {
-        Console.WriteLine("Enter a car.");
+        Console.WriteLine("Введіть машину.");
         Vehicle vehicle = EnterCar();
         vehicle.Show();
-        Console.WriteLine("Enter a train.");
+        Console.WriteLine("Введіть поїзд.");
         IShowable train = EnterTrain();
         train.Show();
-        Console.WriteLine("Enter a express.");
+        Console.WriteLine("Введіть експрес.");
         IShowable express = EnterExpress();
         express.Show();
     }
